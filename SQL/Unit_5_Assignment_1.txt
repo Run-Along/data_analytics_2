@@ -1,0 +1,10 @@
+select * from customer
+select first_name, last_name, email from customer
+select * from film
+select distinct release_year from film
+select distinct rental_rate from film
+select email from customer where last_name = 'Thomas'
+select * from customer where address = '259 Ipoh Drive'
+select * from customer where store_id = 1 and address_id > 150
+select * from payment where amount = 4.99 or amount = 1.99
+select * from payment where amount > 5
